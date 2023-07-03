@@ -49,7 +49,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      {/* Hamburger */}
+
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#ff99cc] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -97,7 +97,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/' >
+              href='https://www.linkedin.com/in/jayde-shaw-774560224/' >
 
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -105,14 +105,14 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'>
+              href='https://github.com/jaydess21'>
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              a href='mailto:shawintelligence@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -120,7 +120,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://docs.google.com/document/d/1-3BlUN9Nlv0ebA59CTXmjaK2FUdgQWizyF44phz2G7s/edit'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
