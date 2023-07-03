@@ -16,7 +16,8 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r 
+    from-purple-500 to-pink-500 text-gray-300'>
       <div>
         <h1 className=' font-thin text-2xl italic font-serif'>Jayde Shaw</h1>
       </div>
