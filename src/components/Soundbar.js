@@ -33,7 +33,7 @@ const Box = styled.div`
     font-size: 18px;
     position: absolute;
     margin-top: -35px;
-    left: -550px;
+    left: -350px;
     opacity: 0.9;
     line-height: 20 px;
   }
@@ -61,7 +61,7 @@ const Line = styled.span`
   width: 5px;
   margin: 0 0.1rem;
   position: relative;
-  left: -500px;
+  left: -300px;
   
 `
 const SoundBar = () => {

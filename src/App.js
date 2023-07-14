@@ -11,12 +11,12 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Soundbar/>
       <Home />
       <About />
       <Skills />
       <Works />
       <Contact />
-      <Soundbar/>
     </div>
   );
 }
