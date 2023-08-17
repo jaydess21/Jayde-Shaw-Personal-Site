@@ -23,31 +23,34 @@ const Works = () => {
               <span className=' text-lg font-bold text-black tracking-wider'>
                 Mastermind Game 
               </span>
-              <p className='text-center'>A Java Application</p>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/jaydess21/Mastermind-Game'>
+              <p className='text-center text-white'>A Java Application</p>
+
+            {/* Add demo video */}
+              <div className='pt-4 flex justify-center items-center'>
+             <video controls width='75%' height='auto' >
+             <source src={require('../assets/Mastermind-Video.mp4')} type='Video/mp4' />
+              Your browser does not support the video tag.
+              </video>
+             </div> 
+
+                <a href='https://github.com/jaydess21/MastermindG'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
               </div>
             </div>
-          </div>
+      
           <div
             style={{ backgroundImage: `url(${code})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
+              <span className=' text-lg font-bold text-black tracking-wider'>
                 Social Media Web-App
               </span>
-              <p className='text-center'>A team project using React, node.js, and Mongo.DB</p>
+              <p className='text-center  text-white'>A team project using React, node.js, and Mongo.DB</p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -68,10 +71,10 @@ const Works = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-              OWASP Password Strength Tester
+              <span className=' text-lg font-bold text-black tracking-wider'>
+              OWASP Password Tester
               </span>
-              <p className='text-center'>A CBT web application built with React and Mongodb</p>
+              <p className='text-center text-white'>A CBT web application built with React and Mongodb</p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
