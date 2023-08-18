@@ -4,8 +4,7 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
+  
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -16,21 +15,16 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r 
+    <div className='fixed w-full h-[20px] flex justify-between items-center px-4 bg-gradient-to-r 
     from-purple-500 to-pink-500 text-gray-300'>
       <div>
-        <h1 className=' font-thin text-2xl italic font-serif'>Jayde Shaw</h1>
+        <h1 className=' font-thin text-sm  italic font-serif'>Jayde Shaw</h1>
       </div>
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
         <li>
           <Link to='home' smooth={true} duration={500}>
             Home
-          </Link>
-        </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
           </Link>
         </li>
         <li>
@@ -44,7 +38,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='works' smooth={true} duration={500}>
             Work
           </Link>
         </li>
@@ -97,37 +91,37 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='fixed lg:flex flex-col top-[60%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[138px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/jayde-shaw-774560224/' >
 
-              Linkedin <FaLinkedin size={30} />
+              Linkedin <FaLinkedin size={22} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[138px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/jaydess21'>
-              Github <FaGithub size={30} />
+              Github <FaGithub size={22} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[138px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               a href='mailto:shawintelligence@gmail.com'
             >
-              Email <HiOutlineMail size={30} />
+              Email <HiOutlineMail size={22} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+          <li className='w-[138px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://docs.google.com/document/d/1-3BlUN9Nlv0ebA59CTXmjaK2FUdgQWizyF44phz2G7s/edit'
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resume <BsFillPersonLinesFill size={22} />
             </a>
           </li>
         </ul>

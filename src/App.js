@@ -1,3 +1,4 @@
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Soundbar from "./components/Soundbar"; 
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -9,9 +10,10 @@ import Works from "./components/Works";
 
 function App() { 
   return (
+    
     <div>
+    <Soundbar/>
       <Navbar />
-      <Soundbar/>
       <Home />
       <About />
       <Skills />

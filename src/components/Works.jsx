@@ -7,9 +7,9 @@ const Works = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 w-full flex justify-center items-center flex-col'>
           <p className='text-4xl font-bold inline border-b-4 text-black-300 border-pink-500'>
-            Work
+            Projects
           </p>
-          <p className='py-6 text-2xl'>Check out some of my most recent work</p>
+          <p className='py-6 text-2xl'>Check out some of my projects</p>
         </div>
 {/* Container */}
 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8'>
@@ -20,10 +20,10 @@ const Works = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-md font-bold text-black tracking-wider'>
+              <span className=' text-sm font-bold text-black tracking-wider'>
                 Mastermind Game 
               </span>
-              <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>A Java Application</p>
+              <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>Team Project- Java Game Application</p>
 
             {/* Add demo video */}
               <div className='pt-4 flex justify-center items-center'>
@@ -82,9 +82,9 @@ const Works = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-md font-bold text-black tracking-wider'>
-              OWASP Password Tester
+              Coming soon.. 
               </span>
-              <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>A CBT web application built with React and Mongodb</p>
+              <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>More info coming soon.. </p>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
