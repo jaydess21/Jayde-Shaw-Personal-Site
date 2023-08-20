@@ -6,10 +6,10 @@ const Works = () => {
     <div name='work' className='w-full md:h-screen text-black-300 bg-[#ff99cc]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 w-full flex justify-center items-center flex-col'>
-          <p className='text-4xl font-bold inline border-b-4 text-black-300 border-pink-500'>
+          <p className='text-4xl font-bold inline border-b-4 text-white border-pink-500'>
             Projects
           </p>
-          <p className='py-6 text-2xl'>Check out some of my projects</p>
+          <p className='py-2 text-1xl text-center text-white'>Check out some of my projects</p>
         </div>
 {/* Container */}
 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8'>

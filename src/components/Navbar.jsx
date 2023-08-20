@@ -15,10 +15,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[20px] flex justify-between items-center px-4 bg-gradient-to-r 
+    <div className='fixed w-full h-[50px] flex justify-between items-center px-4 bg-gradient-to-r 
     from-purple-500 to-pink-500 text-gray-300'>
       <div>
-        <h1 className=' font-thin text-sm  italic font-serif'>Jayde Shaw</h1>
+        <h1 className=' font-thin text-md  italic font-serif'>Jayde Shaw</h1>
       </div>
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to='works' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li>
@@ -60,7 +60,7 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#ff99cc] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl '>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -91,7 +91,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* Social icons */}
-      <div className='fixed lg:flex flex-col top-[60%] left-0'>
+      <div className='fixed lg:flex flex-col top-[70%] left-0'>
         <ul>
           <li className='w-[138px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
             <a
