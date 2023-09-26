@@ -65,7 +65,7 @@ const Home = () => {
               ref={videoRef}
               src={AIVideo}
               alt="AI Bot Video"
-              className="rounded-xl mx-auto w-full h-auto md:w-1/3" // Adjust the width here
+              className="rounded-2xl mx-auto w-full h-auto md:w-2/3" // Adjust the width here
               autoPlay
             />
           </div>
