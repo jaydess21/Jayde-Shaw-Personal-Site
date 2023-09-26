@@ -49,28 +49,26 @@ const Works = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
   <span className='text-md font-bold text-black tracking-wider'>
-    Social Media Web-App
+    Photo Scavenger Hunt
   </span>
   <div className='text-sm text-center text-pink-500 mt-2 max-w-sm'>
-    Team project - React, node.js, and Mongo.DB
+  App that provides a list of tasks, each requiring users to attach photos.
   </div>
   <div className='pt-8 text-center'>
-    {/* Add YouTube Video */}
-    <div className='w-full max-w-md flex justify-center'>
-      <iframe
-        width='100%'
-        height='100'
-        src='https://www.youtube.com/embed/O9s-wxb5kPA'
-        title='Social Media Web App'
-        allow='autoplay; encrypted-media'
-        allowFullScreen
-      ></iframe>
-      </div>
-    <a href='https://github.com/cen4010-fa21-g02/social-media-app'>
-      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-        Code
-      </button>
-    </a>
+      {/* Add demo video */}
+      <div className='pt-4 flex justify-center items-center'>
+             <video controls width='20%' height='10%' >
+             <source src={require('../assets/tasks.mp4')} type='video/mp4' />
+              Your browser does not support the video tag.
+              </video>
+             </div> 
+             
+
+                <a href='https://github.com/COP4655-MobileApps-Fall2023/cop4655-mobile-apps-unit4-jaydess21'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
   </div>
 </div>
 </div>
