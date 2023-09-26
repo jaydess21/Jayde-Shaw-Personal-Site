@@ -7,10 +7,6 @@ My personal website serves as a digital portfolio showcasing my diverse skill se
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
