@@ -24,10 +24,10 @@ const Skills = () => {
               </div>
               
               <div className='shadow-md shadow-[#E75480] hover:scale-110 duration-500'>
-                  <p className='my-4 font-bold'>NODE JS</p>
+                  <p className='my-4 font-bold'>PYTHON</p>
               </div>
               <div className='shadow-md shadow-[#E75480] hover:scale-110 duration-500'>
-                  <p className='my-4 font-bold ' >MONGO DB</p>
+                  <p className='my-4 font-bold ' >SWIFT</p>
               </div>
               <div className='shadow-md shadow-[#E75480] hover:scale-110 duration-500'>
                   <p className='my-4 font-bold'>C++</p>
