@@ -10,8 +10,8 @@ function App() {
   return (
     
     <div>
-    <Soundbar/>
       <Navbar />
+      <Soundbar />
       <Home />
       <About />
       <Skills />

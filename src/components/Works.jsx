@@ -35,7 +35,7 @@ const Works = () => {
              
 
                 <a href='https://github.com/jaydess21/MastermindG'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black-700 font-bold text-lg'>
+                <button className='text-center rounded-sm px-2 py-1 m-1 bg-white text-gray-700 font-bold text-sm'>
                     Code
                   </button>
                 </a>
@@ -49,28 +49,24 @@ const Works = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
   <span className='text-md font-bold text-black tracking-wider'>
-    Social Media Web-App
+    Photo Scavenger Hunt
   </span>
   <div className='text-sm text-center text-pink-500 mt-2 max-w-sm'>
-    Team project - React, node.js, and Mongo.DB
+         Swift Application that offers users a captivating and interactive outdoor experience.
   </div>
   <div className='pt-8 text-center'>
-    {/* Add YouTube Video */}
-    <div className='w-full max-w-md flex justify-center'>
-      <iframe
-        width='100%'
-        height='100'
-        src='https://www.youtube.com/embed/O9s-wxb5kPA'
-        title='Social Media Web App'
-        allow='autoplay; encrypted-media'
-        allowFullScreen
-      ></iframe>
-      </div>
-    <a href='https://github.com/cen4010-fa21-g02/social-media-app'>
-      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-        Code
-      </button>
-    </a>
+                {/* Add demo video */}
+                <div className='pt-3 flex justify-center items-center'>
+                  <video controls width='8%' height='8%' >
+                    <source src={require('../assets/HuntDemo.mp4')} type='video/mp4' />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <a href='https://github.com/COP4655-MobileApps-Fall2023/cop4655-mobile-apps-unit4-jaydess21'>
+                  <button className='text-center rounded-sm px-2 py-1 m-1 bg-white text-gray-700 font-bold text-sm'>
+                    Code
+                  </button>
+                </a>
   </div>
 </div>
 </div>
@@ -82,17 +78,14 @@ const Works = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-md font-bold text-black tracking-wider'>
-              Coming soon.. 
+              Coming soon currently working on projects.. 
               </span>
               <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>More info coming soon.. </p>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-sm px-2 py-1 m-1 bg-white text-gray-700 font-bold text-sm'>
                     Code
                   </button>
                 </a>

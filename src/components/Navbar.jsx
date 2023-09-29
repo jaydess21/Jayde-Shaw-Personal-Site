@@ -10,12 +10,13 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[50px] flex justify-between items-center px-4 bg-gradient-to-r 
+    <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-gradient-to-r 
     from-purple-500 to-pink-500 text-gray-300'>
       <div>
         <h1 className=' font-thin text-md  italic font-serif'>Jayde Shaw</h1>
@@ -38,13 +39,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='works' smooth={true} duration={500}>
+          <Link to='work' smooth={true} duration={500}>
             Projects
-          </Link>
-        </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
           </Link>
         </li>
       </ul>
@@ -83,15 +79,9 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
       </ul>
       {/* Social icons */}
-      <div className='fixed lg:flex flex-col top-[70%] left-0'>
+      <div className='fixed top-[70%] left-0'>
         <ul>
           <li className='w-[138px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
             <a
