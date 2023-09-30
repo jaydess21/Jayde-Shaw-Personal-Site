@@ -1,5 +1,6 @@
 {
-
+"homepage": "http://jaydess21/github.io/Jaydessite",
+"name": "portfolio-buttercms",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
