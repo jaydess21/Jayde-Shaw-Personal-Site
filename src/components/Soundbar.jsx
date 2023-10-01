@@ -5,8 +5,9 @@ import music from '../assets/sounds/BurnaBoy.mp3'
 const Box = styled.div`
 display: flex;
 cursor: pointer;
-position: absolute;
-left: 80%; /* Center horizontally */
+position: fixed;
+top:4%;
+left: 92%; /* Center horizontally */
 transform: translateX(-50%);
 bottom: 0rem; /* Adjust the distance from the bottom */
 z-index: 3;
@@ -85,7 +86,7 @@ const SoundBar = () => {
       <Line click={click} />
       <Line click={click} />
       <Line click={click} />
-      <audio src={music} ref={ref} loop /> &nbsp;
+      <audio src={music} ref={ref} loop />
     </Box>
   )
 }
