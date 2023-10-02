@@ -77,7 +77,7 @@ const Works = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-md font-bold text-black tracking-wider'>
+              <span className=' text-md font-bold text-center text-black tracking-wider'>
               Coming soon currently working on projects.. 
               </span>
               <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>More info coming soon.. </p>
