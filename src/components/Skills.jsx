@@ -27,14 +27,18 @@ const Skills = () => {
                   <p className='my-4 font-bold'>NODE JS</p>
               </div>
               <div className='shadow-md shadow-[#E75480] hover:scale-110 duration-500'>
-                  <p className='my-4 font-bold ' >MONGO DB</p>
-              </div>
-              <div className='shadow-md shadow-[#E75480] hover:scale-110 duration-500'>
                   <p className='my-4 font-bold'>C++</p>
               </div>
               <div className='shadow-md shadow-[#E75480] hover:scale-110 duration-500'>
                   <p className='my-4 font-bold'>JAVA</p>
               </div>
+              <div className='shadow-md shadow-[#E75480] hover:scale-110 duration-500'>
+                  <p className='my-4 font-bold'>SWIFT</p>
+              </div>
+              <div className='shadow-md shadow-[#E75480] hover:scale-110 duration-500'>
+                  <p className='my-4 font-bold'>REACT NATIVE</p>
+              </div>
+             
           </div>
       </div>
     </div>
