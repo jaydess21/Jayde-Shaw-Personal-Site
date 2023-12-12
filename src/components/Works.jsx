@@ -21,17 +21,22 @@ const Works = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-sm font-bold text-black tracking-wider'>
-                Mastermind Game 
+               Anti' Mood
               </span>
-              <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>Team Project- Java Game Application</p>
+              <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>Team Project - Swift iOS Productivity App</p>
 
-            {/* Add demo video */}
+              {/* Loom video */}
               <div className='pt-4 flex justify-center items-center'>
-             <video controls width='40%' height='25%' >
-             <source src={require('../assets/Mastermind-Video.mp4')} type='video/mp4' />
-              Your browser does not support the video tag.
-              </video>
-             </div> 
+                <iframe
+                  width='150'
+                  height='150'
+                  src='https://www.loom.com/embed/900fba895af445fa8b5de2804a4b7f80?sid=6de675e8-3e7e-478f-a170-d11869b87fd5'
+                  frameborder='0'
+                  webkitallowfullscreen
+                  mozallowfullscreen
+                  allowfullscreen
+                ></iframe>
+              </div>
              
 
                 <a href='https://github.com/jaydess21/MastermindG'>
@@ -48,26 +53,24 @@ const Works = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-  <span className='text-md font-bold text-black tracking-wider'>
-    Photo Scavenger Hunt
-  </span>
-  <div className='text-sm text-center text-pink-500 mt-2 max-w-sm'>
-         Swift Application that offers users a captivating and interactive outdoor experience.
-  </div>
-  <div className='pt-8 text-center'>
+            <span className='text-md font-bold text-black tracking-wider'>
+   LifePath
+</span>
+<div className='text-sm text-center text-pink-500 mt-2 max-w-sm'>
+    Team Project - Photo memories AI Application
+</div>
                 {/* Add demo video */}
-                <div className='pt-3 flex justify-center items-center'>
-                  <video controls width='8%' height='8%' >
-                    <source src={require('../assets/HuntDemo.mp4')} type='video/mp4' />
+                <div className='pt-4 flex justify-center items-center'>
+                  <video controls width='80' height='50' >
+                    <source src={require('../assets/lifepath.mp4')} type='video/mp4' />
                     Your browser does not support the video tag.
                   </video>
                 </div>
-                <a href='https://github.com/COP4655-MobileApps-Fall2023/cop4655-mobile-apps-unit4-jaydess21'>
+                <a href='https://github.com/Group11-EngDesign/LifePath'>
                   <button className='text-center rounded-sm px-2 py-1 m-1 bg-white text-gray-700 font-bold text-sm'>
                     Code
                   </button>
                 </a>
-  </div>
 </div>
 </div>
           <div style={{ backgroundImage: `url(${code})` }}
@@ -75,7 +78,7 @@ const Works = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-md font-bold text-black tracking-wider'>
+              <span className=' text-md font-bold text-center text-black tracking-wider'>
               Coming soon currently working on projects.. 
               </span>
               <p className=' text-sm text-center text-pink-500 mt-0 max-w-sm mx-auto'>More info coming soon.. </p>

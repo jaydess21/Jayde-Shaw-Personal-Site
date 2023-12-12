@@ -13,7 +13,7 @@ const Home = () => {
           <p className="text-white py-4 max-w-md">
             Currently in my last year, I am a Computer Science student with a minor in
             Cybersecurity. I enjoy designing web applications using technologies such as
-            React, Java, Node.js, and MongoDB. While enjoying that I am also passionate about securing
+            React, Java, and SQL. While enjoying that I am also passionate about securing
             digital systems and committed to staying current with the rapid development of technologies.
           </p>
           <div>
