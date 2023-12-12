@@ -13,8 +13,8 @@ const About = () => {
             </div>
             <div></div>
           </div>
-          <div className="max-w-[800px] w-full grid md:grid-cols-2 gap-4 px-2">
-            <div className="md:text-right text-lg font-bold text-pink-500">
+          <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-4 px-4">
+            <div className="sm:text-right font-size: 30px text-4xl font-bold text-pink-500 ">
               <p>
                 Ctrl+C, Ctrl+V enthusiast with a knack for cybersecurity and
                 a passion for all things techy.

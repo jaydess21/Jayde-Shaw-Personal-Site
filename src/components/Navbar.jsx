@@ -10,15 +10,16 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[20px] flex justify-between items-center px-4 bg-gradient-to-r 
+    <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-gradient-to-r 
     from-purple-500 to-pink-500 text-gray-300'>
       <div>
-        <h1 className=' font-thin text-sm  italic font-serif'>Jayde Shaw</h1>
+        <h1 className=' font-thin text-md  italic font-serif'>Jayde Shaw</h1>
       </div>
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
@@ -38,13 +39,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='works' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
+          <Link to='work' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
       </ul>
@@ -60,7 +56,7 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#ff99cc] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl '>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
@@ -80,18 +76,12 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
+            Projects
           </Link>
         </li>
       </ul>
       {/* Social icons */}
-      <div className='fixed lg:flex flex-col top-[60%] left-0'>
+      <div className='fixed top-[70%] left-0'>
         <ul>
           <li className='w-[138px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
             <a
