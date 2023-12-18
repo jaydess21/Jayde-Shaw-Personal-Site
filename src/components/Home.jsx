@@ -1,26 +1,29 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-[#ff99cc]">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-3xl sm:text-4xl font-bold text-pink-500">
+<div name="home" className="h-screen w-full bg-[#ff99cc] flex items-center justify-center">
+  <div className="max-w-screen-lg mx-auto flex flex-col items-center text-center">
+    <h2 className="text-3xl sm:text-4xl font-bold text-pink-500">
             Computer Science & Cybersecurity Student
           </h2>
-          <p className="text-white py-4 max-w-md">
+          <p className="text-white py-4 max-w-md text-center">
             Currently in my last year, I am a Computer Science student with a minor in
             Cybersecurity. I enjoy designing web applications using technologies such as
             React, Java, and SQL. While enjoying that I am also passionate about securing
             digital systems and committed to staying current with the rapid development of technologies.
           </p>
+          <p className="text-white py-4 max-w-md text-center">
+          As society faces technology, my commitment to computer science and cybersecurity 
+          empowers me to contribute positively to emerging technologies. My goal is to make
+          a meaningful impact, staying aware of the rapid developments in technology and 
+          ensuring a secure digital future. 
+          </p>
           <div>
             <Link
-              to="about"
-              smooth
-              duration={500}
+              to="/about" //route for the "About" page
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-pink-500 cursor-pointer"
             >
               About Me
@@ -31,7 +34,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

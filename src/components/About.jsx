@@ -2,12 +2,17 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" id="about" className="w-full h-screen bg-[#ff99cc] text-white">
+    <div
+      name="about"
+      id="about"
+      className="w-full h-screen bg-[#ff99cc] text-white"
+      style={{ paddingTop: "60px" }} // Adjust the padding-top value
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="py-16 rounded-md bg-white-800 flex flex-col justify-center items-center w-4/6">
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-1">
-            <div className="sm:text-right pb-8 pl-4">
-              <p className="text-3xl font-bold inline border-b-4 border-pink-500">
+            <div className="sm:text-right pb-2 pl-4">
+              <p className="text-2xl font-bold inline border-b-4 border-pink-500">
                 About Jayde
               </p>
             </div>
