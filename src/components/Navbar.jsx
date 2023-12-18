@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex gap-x-8'>
         <li>
-          <Link to='/home'>Home</Link>
+          <Link to='/'>Home</Link>
         </li>
         <li>
           <Link to='/about'>About</Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
   }
 >
   <li className='text-4xl py-6'>
-    <Link onClick={handleClick} to='/home'>
+    <Link onClick={handleClick} to='/'>
       Home
     </Link>
   </li>
