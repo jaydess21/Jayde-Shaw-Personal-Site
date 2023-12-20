@@ -34,11 +34,10 @@ body {
   }
   
   .image {
-    width: 50%;
+    width: 25%;
     height: auto;
     border-radius: 8px;
   }
-  
   
   .info {
     margin-top: 10px;

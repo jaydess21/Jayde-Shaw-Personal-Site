@@ -1,5 +1,5 @@
 body {
-    background-color: #9d0e83;
+    background-color: #0e9d57;
   }
   
   .post-container {
@@ -11,7 +11,7 @@ body {
   }
   
   .image {
-    width: 50%;
+    width: 25%;
     height: auto;
     border-radius: 8px;
   }
