@@ -24,10 +24,10 @@ const Home = () => {
         <div>
           {/* Add some content here */}
           <Link
-            to="/about"
-            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-pink-500 cursor-pointer"
-          >
-            About Me
+            to="/posts"
+            className="group text-white w-fit px-12 py-2 my-2 flex flex-col items-center rounded-md bg-gradient-to-r from-purple-500 to-pink-500 cursor-pointer" >
+            <p className="text-white max-w-md text-center">Jayde's Blog</p>
+            <p className="text-white max-w-md text-center">Coming Soon</p> 
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight size={25} className="ml-3" />
             </span>
