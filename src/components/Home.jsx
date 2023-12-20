@@ -12,7 +12,7 @@ const Home = () => {
         <p className="text-white py-4 max-w-md text-center">
           Currently in my last year, I am a Computer Science student with a minor in
           Cybersecurity. I enjoy designing web applications using technologies such as
-          React, Java, and SQL. While enjoying that I am also passionate about securing
+          React which is what I used to build this site. While enjoying that I am also passionate about securing
           digital systems and committed to staying current with the rapid development of technologies.
         </p>
         <p className="text-white py-4 max-w-md text-center">
