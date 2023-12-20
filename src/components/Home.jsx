@@ -16,7 +16,7 @@ const Home = () => {
           digital systems and committed to staying current with the rapid development of technologies.
         </p>
         <p className="text-white py-4 max-w-md text-center">
-          As society faces technology, my commitment to computer science and cybersecurity 
+          As society faces upcoming technology, my commitment to computer science and cybersecurity 
           empowers me to contribute positively to emerging technologies. My goal is to make
           a meaningful impact, staying aware of the rapid developments in technology and 
           ensuring a secure digital future. 
