@@ -33,10 +33,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`fixed top-0 w-full h-[40px] flex justify-between items-center px-4 bg-gradient-to-r 
+    <div className={`fixed top-0 w-full h-[70px] flex justify-between items-center px-4 bg-gradient-to-r 
       from-purple-500 to-pink-500 text-gray-300 ${scroll > 60 ? 'bg-white shadow-md' : ''}`}>
       <div>
-      <Link to='/' className='font-thin text-md italic font-serif'>
+      <Link to='/' className='font-thin text-4xl italic font-serif '>
           Jayde Shaw
         </Link>
       </div>

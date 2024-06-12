@@ -6,16 +6,12 @@ const Home = () => {
   return (
     <div name="home" className="h-screen w-full bg-[#ff99cc] flex items-center justify-center">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold text-pink-500">
-          Computer Science & Cybersecurity Student
-        </h2>
-        <p className="text-white py-4 max-w-md text-center">
-          Currently in my last year, I am a Computer Science student with a minor in
-          Cybersecurity. I enjoy designing web applications using technologies such as
-          React which is what I used to build this site. While enjoying that I am also passionate about securing
-          digital systems and committed to staying current with the rapid development of technologies.
+        <p className="text-white py-5 max-w-md text-center text-2xl">
+I am a recent graduate from the University of Florida Atlantic University with a Bachelor of Science in Computer Science and a minor in Cybersecurity. 
+I am passionate about technology and its impact on society. I am a quick learner, a team player, and a problem solver.
+ I am always looking for new challenges and opportunities to grow.
         </p>
-        <p className="text-white py-4 max-w-md text-center">
+        <p className="text-white py-4 max-w-md text-center text-2xl">
           As society faces upcoming technology, my commitment to computer science and cybersecurity 
           empowers me to contribute positively to emerging technologies. My goal is to make
           a meaningful impact, staying aware of the rapid developments in technology and 
