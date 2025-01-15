@@ -33,10 +33,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`fixed top-0 w-full h-[70px] flex justify-between items-center px-4 bg-gradient-to-r 
+    <div className={`fixed top-0 w-full h-[30px] flex justify-between items-center px-4 bg-gradient-to-r 
       from-purple-500 to-pink-500 text-gray-300 ${scroll > 60 ? 'bg-white shadow-md' : ''}`}>
       <div>
-      <Link to='/' className='font-thin text-4xl italic font-serif '>
+      <Link to='/' className='font-thin text-1xl italic font-serif '>
           Jayde Shaw
         </Link>
       </div>
@@ -97,15 +97,15 @@ const Navbar = () => {
         </li>
       </ul>
 
-     {/* Contact Me button to toggle social icons */}
+     {/* Contact Me button to toggle social icons 
      <div
         className={`fixed top-1/2 left-0 cursor-pointer transform -translate-y-1/2 flex items-center ${socialIconsVisible ? 'ml-10' : 'ml-0'}`}
         onClick={toggleSocialIcons}
-      >
+    >
         {socialIconsVisible ? <FaTimes size={22} /> : <FaBars size={22} />}
-      </div>
+      </div> */}
 
-      {/* Social icons */}
+      {/* Social icons 
       {socialIconsVisible && (
         <div className='fixed top-1/2 transform -translate-y-1/2 left-0'>
           <ul>
@@ -134,16 +134,19 @@ const Navbar = () => {
               </a>
             </li>
             <li className='w-[138px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
-              <Link
-                className='flex justify-between items-center w-full text-gray-300'
-                to='/resume'
-              >
-                Resume <BsFillPersonLinesFill size={22} />
-              </Link>
-            </li>
+  <a
+    className='flex justify-between items-center w-full text-gray-300'
+    href='https://docs.google.com/document/d/e/2PACX-1vQrhJSL-4bvQ2FI1YKvH7dpm-P8w7Hi9YtEueb585y693oKT7aHuzjX6-omCT28kMJsM_hrJQyZqgKg/pub'
+    target='_blank'
+    rel='noopener noreferrer'
+  >
+    Resume <BsFillPersonLinesFill size={22} />
+  </a> 
+</li> 
+
           </ul>
-        </div>
-      )}
+        </div> 
+      )} */}
     </div>
   );
 };

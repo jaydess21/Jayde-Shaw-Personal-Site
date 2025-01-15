@@ -1,23 +1,52 @@
-body {
-    background-color: #0e9d57;
-  }
-  
-  .post-container {
-    background-color: #fff;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .image {
-    width: 25%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .info {
-    margin-top: 10px;
-    color: #555;
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+.connect-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.connections-container {
+  display: flex;
+  flex-direction: column; /* Arrange items in a vertical column */
+  align-items: center;    /* Center items horizontally */
+  gap: 40px;              /* Space between the boxes */
+  padding-top: 150px;
+}
+
+
+.connection-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px; /* Adjust width for skinnier boxes */
+  height: auto; /* Adjust height automatically based on content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.connection-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.connection-icon {
+  margin-bottom: 20px;
+}
+
+.connection-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}

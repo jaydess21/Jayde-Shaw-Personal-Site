@@ -16,13 +16,13 @@
     background-size: cover;
     background-position: center;
     height: 250px;
-    background-color: #FFB6C1 ;
-}
+    background-color: #ffffff ;
+} 
 .content-div:hover {
     background-image: linear-gradient(
         to right,
-        rgba(228, 191, 255, 0.8),
-        hsla(275, 100%, 87%, 0.8)   
+        rgba(255, 255, 255, 0.8),
+        hsla(0, 0%, 100%, 0.8)   
     )!important;
 }
 

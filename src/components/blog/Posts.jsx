@@ -1,39 +1,41 @@
-import React, { useState, useEffect } from 'react';
-import constructImage from "../../assets/construct.png";
-import { Link } from 'react-router-dom';
-import "./Posts.css";
-import Post from './Post';
-
+import React from 'react';
+import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa'; // Import icons
+import './Posts.css';
 
 const Posts = () => {
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    const postData = [
-      {
-        title: "🚧 Exciting Developments Underway! 🚧",
-        body: `Currently in the process of building my blog, where insightful content awaits. Please check back soon to explore more. Your patience is appreciated — stay tuned for a journey into inspiration, knowledge, and creativity! 🌟`,
-        author: "Coming Soon",
-        imgUrl: constructImage,
-      },
-      {
-        title: "🚧 Exciting Developments Underway! 🚧",
-        body: `Currently in the process of building my blog, where insightful content awaits. Please check back soon to explore more. Your patience is appreciated — stay tuned for a journey into inspiration, knowledge, and creativity! 🌟`,
-        author: "Coming Soon",
-        imgUrl: constructImage,
-      }
-    
-    ];
-
-    setPosts(postData);
-  }, []);
+  const connections = [
+    {
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/jaydeshaw',
+      icon: <FaLinkedin size={30} color="#0A66C2" />,
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/JaydeTech',
+      icon: <FaTwitter size={30} color="#1DA1F2" />,
+    },
+    {
+      name: 'Email',
+      url: 'mailto:shawintelligence@yahoo.com',
+      icon: <FaEnvelope size={30} color="#EA4335" />,
+    },
+    // Add more connections as needed
+  ];
 
   return (
-    <div className="posts-container">
-      {posts.map((post, index) => (
-        <Link key={index} to={`/post/${index}`}>
-          <Post index={index} post={post} />
-        </Link>
+    <div className="connections-container">
+      <h1 className="connect-heading">Connect with me</h1>
+      {connections.map((connection, index) => (
+        <a
+          key={index}
+          href={connection.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="connection-box"
+        >
+          <div className="connection-icon">{connection.icon}</div>
+          <div className="connection-name">{connection.name}</div>
+        </a>
       ))}
     </div>
   );
